@@ -1,0 +1,52 @@
+
+#search-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+    align-items: center;
+}
+
+#search-box{
+    border-radius: 15px;
+    width: 27em;
+    height: 2.5em;
+}
+
+#search-btn{
+    border-radius: 3px;
+    border: none;
+    width: 12em;
+    height: 2.5em;
+}
+
+#divdecima{
+    margin-right: 2em;
+    display: inline;
+}
+
+.menu{
+    display: flex;
+    gap: 3em;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.Icon{
+    height: 1.5em ;
+    width: 1.5em;
+}
+
+body{
+    margin: 0%;
+    height: 100vh;
+    max-height: 100vh;
+}
